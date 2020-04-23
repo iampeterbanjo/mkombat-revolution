@@ -4,8 +4,12 @@
 	"private": true,
 	"description": "Kombo to the beat",
 	"scripts": {
-		"start": "parcel ./public/index.html -p 9000",
-		"build": "parcel build ./public/index.html",
+		"watch-ts": "parcel ./src/index.tsx ./src/vendors/index.ts -d public/build --hmr-port 40519",
+		"start": "run-p watch-ts serve",
+		"serve": "serve -c serve.json",
+		"build": "run-s clean-build build-ts",
+		"clean-build": "rm -rf ./public/build",
+		"build-ts": "parcel build ./src/index.tsx",
 		"format": "pretty-quick --staged",
 		"lint": "pretty-quick"
 	},
@@ -15,12 +19,15 @@
 		}
 	},
 	"dependencies": {
+		"jquery": "^3.5.0",
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
 		"scribbletune": "^3.5.3",
+		"serve": "^11.3.0",
 		"tone": "^14.6.0"
 	},
 	"devDependencies": {
+		"@types/jquery": "^3.3.35",
 		"@types/react": "^16.9.34",
 		"@types/react-dom": "^16.9.6",
 		"husky": "^4.2.5",

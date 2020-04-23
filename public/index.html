@@ -9,8 +9,10 @@
 		<meta name="theme-color" content="#000000" />
 		<link rel="manifest" href="./manifest.json" />
 		<link rel="shortcut icon" href="./favicon.ico" />
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/tone/13.3.1/Tone.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/scribbletune/3.3.2/scribbletune.js"></script>
+		<script src="./build/vendors/index.js"></script>
+		<script src="./js/jquery.js"></script>
+		<script src="./js/jsRev.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css" />
 
 		<title>MKombat Revolution</title>
 	</head>
@@ -18,7 +20,16 @@
 		<noscript>
 			You need to enable JavaScript to run this app.
 		</noscript>
+		<div class="stage"></div>
+		<!-- ENDS .STAGE -->
+		<div id="controls">
+			<img id="left" src="./arrows/staticLeft.png" />
+			<img id="up" src="./arrows/staticUp.png" />
+			<img id="down" src="./arrows/staticDown.png" />
+			<img id="right" src="./arrows/staticRight.png" />
+		</div>
+		<!-- ENDS #CONTROLS -->
 		<div id="root"></div>
-		<script src="../src/index.tsx"></script>
+		<script src="./build/index.js"></script>
 	</body>
 </html>

@@ -1,15 +1,14 @@
 import React from 'react';
 import { Browser } from '../@types';
-import { startBreakBeat } from '../lib';
+import { test, startBreakBeat, funkyBeat } from '../lib';
 
 interface Props {
 	context: AudioContext;
 }
 
 const { Tone }: Browser = window;
-
 const AudioControl: React.FC<Props> = (props) => {
-	startBreakBeat();
+	console.log(test);
 
 	const handlePlayTransport = () => {
 		Tone.Transport.start();

@@ -1,0 +1,80 @@
+export const breakbeats = {
+	billyJean: {
+		kick: 'x-------x-------',
+		snare: '----x-------x---',
+		ch: 'x-x-x-x-x-x-x-x-',
+	},
+	funkyDrummer: {
+		kick: 'x-x---x---x--x-R',
+		snare: '----x--x-R-xx--R',
+		ch: 'xxxxxxR-xxxxx-xR',
+		oh: '-------x-----x-R',
+	},
+	impeachThePresident: {
+		kick: 'x------xx-----xR',
+		snare: '----x-------R--R',
+		ch: 'x-x-x-xRx---x-RR',
+		oh: '----------x-----',
+	},
+	whenTheLeveeBreaks: {
+		kick: 'xx-----x--xR---R',
+		snare: '----x-------R--R',
+		ch: 'x-x-x-xRx-x-x-xR',
+	},
+	walkThisWay: {
+		kick: 'x------xx-x----R',
+		snare: '----R-------x--R',
+		ch: '--x-x-x-R-x-x-xR',
+		oh: 'x---------------',
+	},
+	itsANewDay: {
+		kick: 'x-x-------xx---R',
+		snare: '----x-------R-R-',
+		ch: 'x-x-x-x-x-x-x-xR',
+	},
+	papaWasToo: {
+		kick: 'x------xx-x----R',
+		snare: '----x-------x---',
+		ch: '----x---x-R-x-xR',
+		tamb: '----x-------R---',
+	},
+	theBigBeat: {
+		kick: 'x--x--x-x---R---',
+		snare: '----x-------R---',
+		clap: '----R-------x---',
+	},
+	ashelysRoachClip: {
+		kick: 'x-x---x--xx---R-',
+		snare: '----x-------x-R-',
+		ch: 'R-x-R-x-x---x-R-',
+		oh: '----------R-----',
+		tamb: 'R',
+	},
+	mardiGras: {
+		kick: 'x--x------x--R--',
+		snare: '----x--R-R--x---',
+		ch: 'x---x-xxx-x-x-RR',
+		oh: '--------------R-',
+		hiBell: 'x-x--R---x--x---',
+		loBell: '----x--x--x--x-R',
+	},
+	synthSub: {
+		kick: 'x-x----x-xxx---x',
+		snare: '----x-------x---',
+		ch: 'x-x-x-x-x-x-x-x-',
+		oh: '--R-------------',
+	},
+	amen: {
+		kick: 'x-x-------xR----',
+		snare: '----x--x-x--x--x',
+		ride: 'x-x-x-x-x-x-x-x-',
+		oh: '----------R-----',
+	},
+	apache: {
+		kick: 'x-R-------x-----',
+		snare: '----x----x--R--x',
+		ch: 'x-x-x-x-x-x-x-x-',
+		loConga: 'x-RR--RR--R---R-',
+		hiConga: 'R--Rx--x-xR-xR-R',
+	},
+};
